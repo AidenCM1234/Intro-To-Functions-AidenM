@@ -64,10 +64,38 @@ def square(x,y):
         square(length, 90)
         length = length * 2
 doubleSquares(5)"""
-def addSquares(iRange):
-    length = 5
+"""def addSquares(iRange):
+    length = 100
     for i in range(iRange):
         square(length, 90)
-        length +=1
-        t.left(0.5)
-addSquares(600)
+        length += (0)
+        t.left(-5)
+addSquares(60)"""
+
+"""def addSquares(iRange):
+    length = 100
+    for i in range(iRange):
+        square(length, 90)
+        length += (5)
+        t.left(-5)
+addSquares(60)"""
+"""def star(iRange):
+    length = 100
+    for i in range(iRange):
+        square(length, 90)
+        length += (1)
+        t.left(144)
+star(60)"""
+
+def sta(x,y):
+       for i in range(3):
+        t.forward(x)
+        t.left(y)
+
+def star(iRange):
+    length = 100
+    for i in range(iRange):
+        sta(length, 122)
+        length += (5)
+        t.left(144)
+star(600)
