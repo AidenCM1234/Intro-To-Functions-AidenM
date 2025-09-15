@@ -59,22 +59,22 @@ def square(x,y):
         square(length, 90)
         length = length * 2
 doubleSquares(5)"""
-"""def addSquares(iRange):
+def addSquares(iRange):
     length = 100
     for i in range(iRange):
         square(length, 90)
         length += (0)
         t.left(-5)
-addSquares(60)"""
+addSquares(60)
 
-"""def addSquares(iRange):
+def addSquares(iRange):
     length = 100
     for i in range(iRange):
         square(length, 90)
         length += (5)
         t.left(-5)
-addSquares(60)"""
-"""
+addSquares(60)
+
 def star(iRange):
     length = 100
     for i in range(iRange):
@@ -95,12 +95,6 @@ def star(iRange):
         length += (5)
         t.left(144)
 star(60)
-"""
-students = ["Bob","Joe","Steve"]
-"""
-print(students[0])
-for student in students:
-    print(student)"""
 
-if "Bob" in students
-    print("hello Bob")
+
+
