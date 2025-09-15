@@ -40,16 +40,11 @@ def rec(x):
     t.left(90)
 rec(200)
 
-for i in range(3):
-    print(i)"""
-""""
-for i in range(3):
-    t.forward(1000)
-    t.left(100)
-    t.forward(500)
-    t.right(50)"""
-t.speed(10000)
-t.shapesize(0.01)
+"""
+
+
+t.speed(100)
+t.shapesize(2)
 screensize(10)
 idelength = 100
 rotate = 90
@@ -79,13 +74,14 @@ addSquares(60)"""
         length += (5)
         t.left(-5)
 addSquares(60)"""
-"""def star(iRange):
+"""
+def star(iRange):
     length = 100
     for i in range(iRange):
         square(length, 90)
         length += (1)
         t.left(144)
-star(60)"""
+star(60)
 
 def sta(x,y):
        for i in range(3):
@@ -98,4 +94,13 @@ def star(iRange):
         sta(length, 122)
         length += (5)
         t.left(144)
-star(600)
+star(60)
+"""
+students = ["Bob","Joe","Steve"]
+"""
+print(students[0])
+for student in students:
+    print(student)"""
+
+if "Bob" in students
+    print("hello Bob")
