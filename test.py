@@ -43,9 +43,8 @@ rec(200)
 """
 
 
-t.speed(100)
-t.shapesize(2)
-screensize(10)
+t.speed(10000000)
+t.shapesize(1)
 idelength = 100
 rotate = 90
 def square(x,y):
@@ -59,7 +58,7 @@ def square(x,y):
         square(length, 90)
         length = length * 2
 doubleSquares(5)"""
-def addSquares(iRange):
+"""def addSquares(iRange):
     length = 100
     for i in range(iRange):
         square(length, 90)
@@ -82,19 +81,16 @@ def star(iRange):
         length += (1)
         t.left(144)
 star(60)
-
+"""
 def sta(x,y):
        for i in range(3):
         t.forward(x)
         t.left(y)
 
 def star(iRange):
-    length = 100
+    length = 200
     for i in range(iRange):
         sta(length, 122)
         length += (5)
         t.left(144)
-star(60)
-
-
-
+star(600000)
